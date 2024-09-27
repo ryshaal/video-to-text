@@ -88,27 +88,18 @@ You can also run this project on Android using Termux. Follow these steps:
 
 1. Clone the repository in Termux:
    ```bash
-   git clone https://github.com/ryshaal/video-to-text.git
-   cd video-to-text
+   cd /storage/emulated/0/ && git clone https://github.com/ryshaal/video-to-text.git && cd /storage/emulated/0/video-to-text/
+
    ```
 
-2. Place your video files in the `video_input/` folder:
-   You can use the Termux storage to access your Android files by running the following command:
-   ```bash
-   termux-setup-storage
-   ```
-
-   Then, copy your video files into the `video_input/` folder using Termux:
-   ```bash
-   cp /sdcard/Download/example.mp4 ./video_input/
-   ```
+2. Place your video files in the `video_input` folder. 
 
 3. Run the script:
    ```bash
    python main.py
    ```
 
-4. Follow the instructions, and the transcribed text files will be saved in the `transcribe/` folder.
+4. Follow the instructions, and the transcribed text files will be saved in the `transcribe` folder.
 
 ### Notes for Termux
 
