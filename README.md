@@ -1,5 +1,5 @@
 
-# Video to Text Transcription Project
+# Video to Text Transcription
 
 This project is designed to convert video files into text by extracting the audio from the video and transcribing it using Python's `speech_recognition` library. The transcribed text files are saved in a dedicated folder.
 
