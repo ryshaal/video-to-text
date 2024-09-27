@@ -4,7 +4,10 @@
 This project is designed to convert video files into text by extracting the audio from the video and transcribing it using Python's `speech_recognition` library. The transcribed text files are saved in a dedicated folder.
 
 ## Features
-
+- Convert video files (.mp4, .avi, .mov, .mkv) to WAV format using `ffmpeg`.
+- Transcribe audio files using Google Speech Recognition API (`SpeechRecognition` library).
+- Supports multiple languages, including Indonesian (`id-ID`), English (`en-US`), and Spanish (`es-ES`).
+- Automatically deletes the audio files after successful transcription.
 - Extract audio from video files.
 - Convert the extracted audio to text using Google Web Speech API.
 - Handle different video formats.
